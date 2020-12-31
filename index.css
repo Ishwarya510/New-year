@@ -77,6 +77,8 @@
 #out{
     color: lightcoral;
     font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    font-weight: bolder;
 }
 @media only screen and (max-width:600px){
     .card{
@@ -103,10 +105,10 @@
     }
    
 }
-@media only screen and (max-width:450px){
+@media only screen and (max-width:400px){
     .card{
-        width: 370px;
-        height: 540px;
+        width: 350px;
+        height: 590px;
         position: absolute;
 
     }
@@ -115,16 +117,19 @@
         
     }
 }
-@media only screen and (max-width:450px){
+@media only screen and (max-width:350px){
+    .image{
+        max-width: 1500px;
+    }
     .card{
-        width: 350px;
-        height: 560px;
+        width: 320px;
+        height: 540px;
         position: absolute;
 
-        text-align: center;
+       
     }
     .footer{
-        left: 20%;
+        left: 40%;
         
     }
 }
