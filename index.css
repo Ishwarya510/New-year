@@ -19,7 +19,7 @@
 }
 .card{
     z-index: 1;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     backdrop-filter: blur(1px);
     width: 500px;
     height: 610px;
@@ -83,7 +83,7 @@
 @media only screen and (max-width:600px){
     .card{
         z-index: 1;
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0,0,0,0.7);
         backdrop-filter: blur(1px);
         width: 400px;
         height: 500px;
@@ -108,7 +108,7 @@
 @media only screen and (max-width:400px){
     .card{
         z-index: 1;
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0,0,0,0.7);
         backdrop-filter: blur(1px);
         width: 350px;
         height: auto;
@@ -126,7 +126,7 @@
     }
     .card{
         z-index: 1;
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0,0,0,0.7);
         backdrop-filter: blur(20px);
         width: 320px;
         height: auto;
