@@ -107,8 +107,11 @@
 }
 @media only screen and (max-width:400px){
     .card{
+        z-index: 1;
+        background-color: rgb(0,0,0,0.7);
+        backdrop-filter: blur(1px);
         width: 350px;
-        height: 560px;
+        height: 580px;
         position: absolute;
 
     }
@@ -122,8 +125,11 @@
         max-width: 1500px;
     }
     .card{
+        z-index: 1;
+        background-color: rgb(0,0,0,0.7);
+        backdrop-filter: blur(1px);
         width: 320px;
-        height: 540px;
+        height: 550px;
         position: absolute;
 
        
